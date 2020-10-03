@@ -1,0 +1,97 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    /* flex-direction: row; */
+    /*
+    2. 
+    Main axis
+    Goes from <- to ->
+
+    Cross axis
+    Goes from ^ to v
+    */
+
+    /* 3. Moving items */
+    /* justify-content: space-evenly; */
+    /* justify-content: flex-end; */
+    /* Responsive height */
+    /* height: 100%; */
+    
+}
+
+/* 4. Positions items
+.home {
+    margin-right: auto;
+} */
+
+/* 5. The Flex Property */
+.container > div {
+    /* flex: 1; */
+    
+    /* flex-grow, flex-shrink, flex-basis */
+}
+
+/* More specific styling */
+/* .container > .search {
+    flex: 2;
+} */
+
+/* .home {
+    flex: 1;
+}
+
+.logout {
+    flex: 1;
+} */
+
+/* 6. Align items in the cross axis */
+/* IMPORTANT */
+/* .container {
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .container {
+    align-items: center;
+} */
+
+/* Sigle item at a time
+.logout {
+    align-self: flex-start;
+}
+
+.home {
+    align-self: flex-end;
+} */
+
+/* 7. Flex Direction */
+/* .container {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: stretch;
+} */
+
+/* 8. Wrapping up */
+/* .container {
+    flex-wrap:  wrap;
+}
+
+.container > div {
+    width: 300px;
+} */
+
+/* 9. Flex, grow, shrink, basis */
+.home {
+    /* flex: 1 1 0;
+    flex-shrink: 1; */
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+.logout {
+    /* flex: 1 1 0;
+    flex-shrink: 1; */
+    flex-grow: 1;
+    flex-basis: 200px;
+}
